@@ -1,0 +1,50 @@
+<html>
+<head><title>UserLogin</title>
+<style type="text/css">
+body{
+background-color:#05BAF2;
+}
+h1{
+color:black;
+text-align:center;
+font-size:50px;
+}
+form{
+margin:20px auto;
+width:320px;
+color:black;
+}
+input{
+padding:10px;
+font-size:inherit;
+}
+input[type="text"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="password"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="submit"]{
+width:50%;
+height:35px;
+border:none;
+background-color:black;
+color:white;
+}
+</style>
+</head>
+<body>
+<h1>Admin</h1>
+<form action="adminlogin.php" method="POST">
+<input type="text" name="username"placeholder="Username" required>
+<input type="password" name="pwd" placeholder="Password" required>
+<center><input type="submit" value="LOGIN">
+<form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+background-color:#05BAF2;
+}
+h1{
+color:black;
+text-align:center;
+font-size:50px;
+}
+form{
+margin:20px auto;
+width:320px;
+color:black;
+}
+input{
+padding:10px;
+font-size:inherit;
+}
+input[type="text"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="tel"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="password"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="email"]{
+display:block;
+width:100%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="radio"]{
+margin-bottom:20px;
+ width:10%;
+ height: 1.2em;
+}
+input[type="radio"]:first-child{
+margin-left:0;
+}
+input[type="submit"]{
+width:50%;
+height:35px;
+border:none;
+background-color:black;
+color:white;
+}

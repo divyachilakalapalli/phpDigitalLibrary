@@ -1,0 +1,23 @@
+<html>
+<head><title>Registration Page</title>
+<link rel="stylesheet" type="text/css" href="regstyle.css">
+</head>
+<body>
+<h1>Register Here!!!</h1>
+<form action="register.php" method="POST">
+<input type="text" name="username" placeholder="User Name" required>
+<input type="tel" name="phno" pattern="[0-9]{10}" title="Enter valid phone number" placeholder="Phone Number" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="password" name="pwd" placeholder="Create Password" required>
+<input type="Password" name="cpwd" placeholder="Confirm Password" required>
+<div>
+<input type="radio" id="male" value="M"  name="gender" required><label for="male" >Male</label>&nbsp
+<input type="radio" id="female" value="F" name="gender"><label for="female">Female</label>
+</div>
+<center><input type="submit" value="Submit" >
+</form>
+
+</body>
+
+</html>
+

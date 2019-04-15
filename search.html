@@ -1,0 +1,50 @@
+<html>
+<head><title>BookSearch</title>
+<style>
+input{
+padding:10px;
+font-size:inherit;
+}
+input[type="text"]{
+display:block;
+width:30%;
+margin-bottom:20px;
+border:2px solid black;
+}
+input[type="radio"]{
+margin-bottom:0px;
+width:5%;
+height: 1.1em;
+}
+input[type="submit"]{
+width:10%;
+height:35px;
+border:none;
+background-color:black;
+color:white;
+}
+
+</style>
+</head>
+<body bgcolor="#05BAF2">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="search.php" method="POST">
+<center><input type="text" name="search" class="search" placeholder="search book"><input type="submit" value="search"></center><br>
+<h3>Search By:</h3>
+<input type="radio"  name="searchby" value="bookname">Book Name<br>
+<input type="radio"  name="searchby" value="author">Author<br>
+<input type="radio"  name="searchby" value="subject">Subject<br>
+</form>
+</body>
+</html>
+
+
+
+
+
+
